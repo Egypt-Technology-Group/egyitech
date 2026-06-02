@@ -86,7 +86,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "EGYITECH is an Egyptian software development company delivering enterprise systems, educational platforms, AI solutions, and digital transformation worldwide.",
       },
       { name: "author", content: "EGYITECH" },
-      { property: "og:title", content: "EGYITECH — Digital Products & Enterprise Software" },
+      { property: "og:title", content: "EGYITECH — Building Digital Products That Drive Innovation" },
       {
         property: "og:description",
         content:
@@ -95,6 +95,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "EGYITECH" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "EGYITECH — Building Digital Products That Drive Innovation" },
+      { name: "description", content: "EGYITECH's corporate website showcases digital transformation and software development services." },
+      { property: "og:description", content: "EGYITECH's corporate website showcases digital transformation and software development services." },
+      { name: "twitter:description", content: "EGYITECH's corporate website showcases digital transformation and software development services." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0c24c5e0-ead9-4d85-bfaa-a7d7d193683b/id-preview-33dd1cd7--2e1af5ce-298f-4785-9c0b-62451e9d7d97.lovable.app-1780432900998.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0c24c5e0-ead9-4d85-bfaa-a7d7d193683b/id-preview-33dd1cd7--2e1af5ce-298f-4785-9c0b-62451e9d7d97.lovable.app-1780432900998.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
