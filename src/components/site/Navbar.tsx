@@ -27,10 +27,10 @@ export function Navbar() {
   ];
 
   return (
-    <motion.header
-      style={{ backdropFilter: blur.get() ? `blur(${blur.get()}px)` : undefined }}
-      className="fixed inset-x-0 top-0 z-50"
+    <header
+      className={`fixed inset-x-0 top-0 z-50 transition-all ${scrolled ? "py-1" : "py-2"}`}
     >
+
       <div className="glass mx-auto mt-4 flex max-w-7xl items-center justify-between rounded-2xl px-5 py-3">
         <Link to="/" className="flex items-center gap-2">
           <div className="bg-gradient-brand grid h-8 w-8 place-items-center rounded-lg font-bold text-white shadow-lg">
