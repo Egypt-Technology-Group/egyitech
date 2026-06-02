@@ -1,0 +1,236 @@
+export type Lang = "en" | "ar";
+
+export const translations = {
+  en: {
+    "nav.home": "Home",
+    "nav.services": "Services",
+    "nav.portfolio": "Portfolio",
+    "nav.collaborations": "Collaborations",
+    "nav.about": "About",
+    "nav.contact": "Contact",
+    "nav.book": "Book Consultation",
+
+    "hero.eyebrow": "Egyptian software, global standards",
+    "hero.title": "We Build Software That Moves Businesses Forward",
+    "hero.subtitle":
+      "From enterprise systems and educational platforms to AI-powered solutions, EGYITECH delivers modern digital products built for growth.",
+    "hero.cta1": "Book Consultation",
+    "hero.cta2": "View Our Work",
+
+    "stats.projects": "Projects Delivered",
+    "stats.platforms": "Platforms Developed",
+    "stats.industries": "Industries Served",
+    "stats.clients": "Egypt & International Clients",
+
+    "services.title": "Services built for ambitious teams",
+    "services.subtitle":
+      "End-to-end product engineering — from strategy and design to deployment and long-term support.",
+
+    "services.custom.title": "Custom Software Development",
+    "services.custom.desc": "Tailored software solutions built around your business needs.",
+    "services.web.title": "Web Development",
+    "services.web.desc": "Fast, scalable, modern web applications.",
+    "services.mobile.title": "Mobile App Development",
+    "services.mobile.desc": "Native and cross-platform Android and iOS solutions.",
+    "services.ai.title": "Artificial Intelligence",
+    "services.ai.desc": "AI-powered automation and intelligent systems.",
+    "services.erp.title": "ERP Systems",
+    "services.erp.desc": "Unified business management platforms.",
+    "services.edu.title": "Educational Technology",
+    "services.edu.desc": "LMS, student systems, and examination platforms.",
+    "services.health.title": "Healthcare Solutions",
+    "services.health.desc": "Hospital management and healthcare platforms.",
+    "services.cloud.title": "Cloud Solutions",
+    "services.cloud.desc": "Scalable cloud infrastructure and deployment.",
+
+    "portfolio.title": "Selected work",
+    "portfolio.subtitle":
+      "A portfolio of enterprise systems, educational platforms, and specialized products shipped for organizations across Egypt and beyond.",
+    "portfolio.all": "All",
+    "portfolio.enterprise": "Enterprise",
+    "portfolio.education": "Education",
+    "portfolio.business": "Business",
+    "portfolio.specialized": "Specialized",
+    "portfolio.view": "Visit",
+
+    "collab.title": "Collaborations & success stories",
+    "collab.subtitle": "Partnerships that shape digital transformation.",
+    "collab.strategic": "Strategic Collaboration",
+    "collab.international": "International Collaboration",
+    "collab.fwa.title": "EGYITECH Powers Digital Transformation for Future Way Academy",
+    "collab.fwa.desc":
+      "Development of digital education and training solutions supporting modern learning experiences and scalable learning infrastructure.",
+    "collab.tp.title": "International Technology Collaboration with Turning Pointe",
+    "collab.tp.desc":
+      "Supporting digital initiatives and platform development through international collaboration efforts and technology partnerships.",
+
+    "why.title": "Why choose EGYITECH",
+    "why.subtitle": "A partner engineered for outcomes, not output.",
+    "why.innovation.t": "Innovation First",
+    "why.innovation.d": "We embrace modern technologies and future-ready architectures.",
+    "why.industry.t": "Industry Experience",
+    "why.industry.d": "Across education, healthcare, business, and technology sectors.",
+    "why.scalable.t": "Scalable Solutions",
+    "why.scalable.d": "Built for growth and long-term sustainability.",
+    "why.client.t": "Client Focused",
+    "why.client.d": "Every solution is tailored to client goals.",
+    "why.enterprise.t": "Enterprise Quality",
+    "why.enterprise.d": "Built with professional, scalable architectures.",
+    "why.partner.t": "Long-Term Partnership",
+    "why.partner.d": "We focus on sustainable client success.",
+
+    "process.title": "A process built for clarity",
+    "process.subtitle": "Seven steps from idea to ongoing success.",
+    "process.s1": "Discovery",
+    "process.s2": "Planning",
+    "process.s3": "Design",
+    "process.s4": "Development",
+    "process.s5": "Testing",
+    "process.s6": "Deployment",
+    "process.s7": "Support",
+
+    "test.title": "Trusted by teams that ship",
+    "test.subtitle": "Voices from organizations we partner with.",
+
+    "cta.title": "Ready to Build Something Exceptional?",
+    "cta.subtitle": "Let's transform your ideas into scalable digital products.",
+    "cta.b1": "Start Your Project",
+    "cta.b2": "Contact EGYITECH",
+
+    "footer.tagline": "Building Digital Products That Drive Innovation",
+    "footer.rights": "© 2026 EGYITECH. All Rights Reserved.",
+    "footer.about": "About",
+    "footer.services": "Services",
+    "footer.portfolio": "Portfolio",
+    "footer.collaborations": "Collaborations",
+    "footer.contact": "Contact",
+
+    "about.title": "About EGYITECH",
+    "about.body":
+      "EGYITECH is an Egyptian software development company helping startups, universities, schools, healthcare organizations, and enterprises transform ideas into scalable digital products. We combine engineering rigor with product thinking to deliver platforms that perform at international standards.",
+
+    "contact.title": "Let's talk",
+    "contact.subtitle": "Tell us about your project. We respond within one business day.",
+    "contact.name": "Full name",
+    "contact.email": "Email",
+    "contact.message": "Project brief",
+    "contact.send": "Send message",
+  },
+  ar: {
+    "nav.home": "الرئيسية",
+    "nav.services": "الخدمات",
+    "nav.portfolio": "أعمالنا",
+    "nav.collaborations": "الشراكات",
+    "nav.about": "من نحن",
+    "nav.contact": "تواصل معنا",
+    "nav.book": "احجز استشارة",
+
+    "hero.eyebrow": "هندسة برمجية مصرية بمعايير عالمية",
+    "hero.title": "نبني حلولًا رقمية تدفع الأعمال نحو المستقبل",
+    "hero.subtitle":
+      "من الأنظمة المؤسسية والمنصات التعليمية إلى حلول الذكاء الاصطناعي، تقدم إيجي آي تك منتجات رقمية حديثة مصممة للنمو.",
+    "hero.cta1": "احجز استشارة",
+    "hero.cta2": "اكتشف أعمالنا",
+
+    "stats.projects": "مشروعًا تم تسليمه",
+    "stats.platforms": "منصة تم تطويرها",
+    "stats.industries": "قطاعات متعددة",
+    "stats.clients": "عملاء محليون ودوليون",
+
+    "services.title": "خدمات صُممت للفرق الطموحة",
+    "services.subtitle":
+      "هندسة منتجات متكاملة — من الاستراتيجية والتصميم إلى التشغيل والدعم طويل المدى.",
+
+    "services.custom.title": "تطوير برمجيات مخصصة",
+    "services.custom.desc": "حلول برمجية مصممة خصيصًا حول احتياجات عملك.",
+    "services.web.title": "تطوير الويب",
+    "services.web.desc": "تطبيقات ويب سريعة وقابلة للتوسع وعصرية.",
+    "services.mobile.title": "تطبيقات الموبايل",
+    "services.mobile.desc": "حلول أصلية ومتعددة المنصات لأندرويد و iOS.",
+    "services.ai.title": "الذكاء الاصطناعي",
+    "services.ai.desc": "أتمتة وأنظمة ذكية مدعومة بالذكاء الاصطناعي.",
+    "services.erp.title": "أنظمة تخطيط الموارد",
+    "services.erp.desc": "منصات إدارة أعمال موحدة.",
+    "services.edu.title": "التقنيات التعليمية",
+    "services.edu.desc": "منصات إدارة التعلم وأنظمة الطلاب والامتحانات.",
+    "services.health.title": "حلول الرعاية الصحية",
+    "services.health.desc": "أنظمة إدارة المستشفيات والمنصات الصحية.",
+    "services.cloud.title": "الحوسبة السحابية",
+    "services.cloud.desc": "بنية تحتية سحابية قابلة للتوسع ونشر متقدم.",
+
+    "portfolio.title": "مختارات من أعمالنا",
+    "portfolio.subtitle":
+      "محفظة من الأنظمة المؤسسية والمنصات التعليمية والمنتجات المتخصصة التي تم تسليمها لمؤسسات داخل مصر وخارجها.",
+    "portfolio.all": "الكل",
+    "portfolio.enterprise": "المؤسسات",
+    "portfolio.education": "التعليم",
+    "portfolio.business": "الأعمال",
+    "portfolio.specialized": "متخصصة",
+    "portfolio.view": "زيارة",
+
+    "collab.title": "شراكات وقصص نجاح",
+    "collab.subtitle": "شراكات تصنع التحول الرقمي.",
+    "collab.strategic": "شراكة استراتيجية",
+    "collab.international": "شراكة دولية",
+    "collab.fwa.title": "إيجي آي تك تقود التحول الرقمي لأكاديمية Future Way",
+    "collab.fwa.desc":
+      "تطوير حلول التعليم والتدريب الرقمي لدعم تجارب تعلم حديثة وبنية تعليمية قابلة للتوسع.",
+    "collab.tp.title": "تعاون تقني دولي مع Turning Pointe",
+    "collab.tp.desc":
+      "دعم المبادرات الرقمية وتطوير المنصات من خلال شراكات تقنية دولية.",
+
+    "why.title": "لماذا إيجي آي تك",
+    "why.subtitle": "شريك مهندَس للنتائج، لا للمخرجات فقط.",
+    "why.innovation.t": "الابتكار أولًا",
+    "why.innovation.d": "نتبنى أحدث التقنيات وبنى المستقبل.",
+    "why.industry.t": "خبرة قطاعية",
+    "why.industry.d": "في التعليم والصحة والأعمال والتكنولوجيا.",
+    "why.scalable.t": "حلول قابلة للتوسع",
+    "why.scalable.d": "مبنية للنمو والاستدامة طويلة المدى.",
+    "why.client.t": "العميل أولًا",
+    "why.client.d": "كل حل مصمم حول أهداف العميل.",
+    "why.enterprise.t": "جودة مؤسسية",
+    "why.enterprise.d": "هندسة احترافية قابلة للتوسع.",
+    "why.partner.t": "شراكة طويلة الأمد",
+    "why.partner.d": "نركّز على النجاح المستدام.",
+
+    "process.title": "منهجية واضحة من الفكرة إلى الإطلاق",
+    "process.subtitle": "سبع مراحل من الفكرة إلى النجاح المستمر.",
+    "process.s1": "الاكتشاف",
+    "process.s2": "التخطيط",
+    "process.s3": "التصميم",
+    "process.s4": "التطوير",
+    "process.s5": "الاختبار",
+    "process.s6": "النشر",
+    "process.s7": "الدعم",
+
+    "test.title": "موثوق بنا من فرق تُنجِز",
+    "test.subtitle": "أصوات من مؤسسات نعمل معها.",
+
+    "cta.title": "هل أنت مستعد لبناء شيء استثنائي؟",
+    "cta.subtitle": "لنحوّل أفكارك إلى منتجات رقمية قابلة للتوسع.",
+    "cta.b1": "ابدأ مشروعك",
+    "cta.b2": "تواصل مع إيجي آي تك",
+
+    "footer.tagline": "نبني منتجات رقمية تقود الابتكار",
+    "footer.rights": "© 2026 إيجي آي تك. جميع الحقوق محفوظة.",
+    "footer.about": "من نحن",
+    "footer.services": "الخدمات",
+    "footer.portfolio": "أعمالنا",
+    "footer.collaborations": "الشراكات",
+    "footer.contact": "تواصل معنا",
+
+    "about.title": "عن إيجي آي تك",
+    "about.body":
+      "إيجي آي تك شركة مصرية لتطوير البرمجيات تساعد الشركات الناشئة والجامعات والمدارس والمؤسسات الصحية والشركات الكبرى على تحويل الأفكار إلى منتجات رقمية قابلة للتوسع. نجمع بين الانضباط الهندسي والتفكير المنتجي لتقديم منصات بأعلى المعايير العالمية.",
+
+    "contact.title": "لنتحدث",
+    "contact.subtitle": "أخبرنا عن مشروعك. نرد خلال يوم عمل واحد.",
+    "contact.name": "الاسم بالكامل",
+    "contact.email": "البريد الإلكتروني",
+    "contact.message": "ملخص المشروع",
+    "contact.send": "إرسال",
+  },
+} as const;
+
+export type TranslationKey = keyof typeof translations.en;
