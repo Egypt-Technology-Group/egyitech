@@ -94,6 +94,6 @@ export function Navbar() {
           ))}
         </div>
       )}
-    </motion.header>
+    </header>
   );
 }
