@@ -2,12 +2,18 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
 tanstackStart: {
-server: {
-entry: "server",
+ssr: false,
+
+prerender: {
+  crawlLinks: true,
+  routes: ["/"],
 },
 
-// FORCE Nitro deployment plugin
-nitro: true,
+},
 
+vite: {
+build: {
+outDir: "dist",
+},
 },
 });
