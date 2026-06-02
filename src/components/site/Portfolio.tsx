@@ -111,11 +111,12 @@ export function Portfolio() {
   }, [emblaApi, filtered.length]);
 
   useEffect(() => {
-    const a = autoplayRef.current;
+    if (!emblaApi) return;
+    const a = emblaApi.plugins()?.autoplay;
     if (!a) return;
     if (autoplay) a.play();
     else a.stop();
-  }, [autoplay]);
+  }, [autoplay, emblaApi]);
 
   const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
   const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
