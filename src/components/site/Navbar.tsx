@@ -1,16 +1,21 @@
 import { Link } from "@tanstack/react-router";
-import { motion, useScroll, useTransform } from "framer-motion";
 import { Globe, Moon, Sun, Menu, X } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useI18n } from "@/lib/i18n";
 import { useTheme } from "@/lib/theme";
 
 export function Navbar() {
   const { t, lang, setLang } = useI18n();
   const { theme, toggle } = useTheme();
-  const { scrollY } = useScroll();
-  const blur = useTransform(scrollY, [0, 80], [0, 16]);
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 12);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   const items = [
     { to: "/", label: t("nav.home") },
