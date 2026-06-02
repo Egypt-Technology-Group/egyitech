@@ -25,8 +25,6 @@ const projects: Project[] = [
   { title: "CBATU IT", cat: "education", desc: "IT faculty platform.", url: "it.cbatu.com", livePreview: true },
   { title: "CBATU Student Portal", cat: "education", desc: "Student services portal.", url: "students.cbatu.com" },
   { title: "Orientation Day", cat: "education", desc: "Onboarding experience.", url: "orientationday.cbatu.com" },
-  { title: "CBATU Store", cat: "education", desc: "Campus commerce.", url: "store.cbatu.com" },
-  { title: "CBATU Thinker", cat: "education", desc: "Critical thinking platform.", url: "thinker.cbatu.com" },
   { title: "Avocado", cat: "education", desc: "Learning platform.", url: "avocado.cbatu.com" },
   { title: "VBC", cat: "business", desc: "Virtual business center.", url: "vbc.egyitech.com" },
   { title: "Future Way", cat: "business", desc: "Business platform.", url: "fw.egyitech.com" },
