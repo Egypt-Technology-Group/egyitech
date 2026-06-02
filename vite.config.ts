@@ -2,7 +2,7 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
 tanstackStart: {
-target: "static",
+ssr: false,
 
 server: {
   entry: "server",
@@ -13,6 +13,11 @@ prerender: {
   routes: ["/"],
 },
 
+},
 
+vite: {
+build: {
+ssr: false,
+},
 },
 });
